@@ -188,5 +188,49 @@ db.products.insertMany([
             { size: "42", color: "blue", stock: 3 },
             { size: "43", color: "black", stock: 5 }
         ]
+    },
+    {
+        _id: "p13",
+        type: "tshirt",
+        name: "Graphic Tee",
+        category: "T-Shirts",
+        price: 599,
+        brand: { name: "Urbanfox", country: "Czech Republic" },
+        sleeveLength: "short",
+        neckline: "crew",
+        variants: [
+            { size: "M", color: "white", stock: 0 },
+            { size: "L", color: "black", stock: 0 }
+        ]
+    },
+    {
+        _id: "p14",
+        type: "jeans",
+        name: "Wide Leg Jeans",
+        category: "Jeans",
+        price: 1890,
+        brand: { name: "Pacific Thread", country: "USA" },
+        fit: "wide",
+        rise: "high",
+        variants: [
+            { size: "28", color: "blue", stock: 2 },
+            { size: "30", color: "blue", stock: 4 },
+            { size: "32", color: "black", stock: 1 }
+        ]
+    },
+    {
+        _id: "p15",
+        type: "shoes",
+        name: "Chelsea Boot",
+        category: "Boots",
+        price: 3490,
+        brand: { name: "Nordwear", country: "Sweden" },
+        soleMaterial: "rubber",
+        heelHeightCm: 4,
+        variants: [
+            { size: "38", color: "black", stock: 2 },
+            { size: "40", color: "black", stock: 3 },
+            { size: "42", color: "brown", stock: 0 }
+        ]
     }
 ]);
